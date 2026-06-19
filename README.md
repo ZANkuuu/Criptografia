@@ -33,8 +33,8 @@ A função **_criptografia_** inicia com algumas validações para evitar que o 
 Agora que todos os caracteres acentuados foram "corrigidos", vamos para a criptografia.
 
 Dentro do loop for, a string é percorrida caractere por caractere, fazendo duas comparações:
-1. Se o caractere for **maiúsculo** - Intervalo: [65-90] = [A-Z].
-2. Se o caractere for **minúsculo** - Intervalo: [97-122] = [a-z].
+1. Se o caractere for **maiúsculo** - **Intervalo: [65-90] = [A-Z]**.
+2. Se o caractere for **minúsculo** - **Intervalo: [97-122] = [a-z]**.
 
 Em ambos os casos, o valor do caractere é inserido em uma equação que subtrai um valor A (65 para maiúsculo e 97 para minúsculo) do seu valor para somar ao deslocamento com o intuito de obter o resto mínimo. Depois, este é somado com o mesmo valor que havia sido subtraído no início (65 para maiúsculo e 97 para minúsculo), para obter o caractere 3 casas à direita no alfabeto.
 
