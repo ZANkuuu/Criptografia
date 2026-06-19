@@ -2,7 +2,7 @@
 ___
 
 ##  Resumo
-O projeto funciona da seguinte maneira: o usuário cria um .txt na mesma pasta que estão as classes (_/criptografia_) e insere seu texto no arquivo. Logo após, o programa vai copiar o texto do arquivo de entrada, criptografá-lo utilizando-se do algoritmo da **Cifra de César** e vai verificar se há um arquivo na pasta _/retorno_ (A pasta deve ser criado dentro de _/criptografia_), se há um arquivo, todo o texto contido nele vai ser substituído pelo texto criptografado, se não, o arquivo é criado e o texto criptografado é escrito nele.
+O projeto consiste em utilizar um arquivo de entrada (.txt) na pasta _criptografia/_ para inserir o texto a ser criptografado, o fluxo do código pega todo o texto do arquivo de entrada e utiliza do algoritmo da **Cifra de César** para fazer o processo de criptografia e logo após verifica se há um arquivo dentro da pasta _retorno/_, caso não haja, um novo arquivo de saída (.txt) é gerado e o texto criptografado é impresso no arquivo de saída criado, e ambos os arquivos são salvos e fechados para que nenhum dos dois sejam corrompidos.
 
 ### Palavras-chave: 
 criptografia; ascii; arquivo.
