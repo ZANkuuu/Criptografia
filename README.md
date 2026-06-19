@@ -39,10 +39,10 @@ Dentro do loop for, a string é percorrida caractere por caractere, fazendo duas
 Em ambos os casos, o valor do caractere é inserido em uma equação que subtrai um valor A (65 para maiúsculo e 97 para minúsculo) do seu valor para somar ao deslocamento com o intuito de obter o resto mínimo. Depois, este é somado com o mesmo valor que havia sido subtraído no início (65 para maiúsculo e 97 para minúsculo), para obter o caractere 3 casas à direita no alfabeto.
 
 Equação (De forma genérica): $((C - A + D) \equiv R \pmod{26} )+A$ 
-+ C: Valor inteiro do caractere;
-+ A: Valor do caractere A em função do intervalo;
-+ D: Deslocamento;
-+ R: Resto mínimo.
++ **C**: Valor inteiro do caractere;
++ **A**: Valor do caractere A em função do intervalo;
++ **D**: Deslocamento;
++ **R**: Resto mínimo.
 
 Na sequência de todo esse processo, a função retorna o texto criptografado.
 
