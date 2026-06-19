@@ -12,7 +12,6 @@ public class Controller {
     }
 
     void fluxo(){
-
         if(arquivo.verificarPasta()) arquivo.criarArquivo();
 
         arquivo.abrirArquivo();
